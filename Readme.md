@@ -1,7 +1,7 @@
 # FileSystem
 
 # Pre-requirements
-- Install [Node.js](https://nodejs.org/en/) version 8.0.0
+- Install [Node.js](https://nodejs.org/en/)
 
 
 # Getting started
@@ -16,14 +16,14 @@ npm install
 ```
 - Create the topdir folder
 ```
-
 npm setup
 ```
+
 - Build and run the project
 ```
 npm dev
 ```
-Wait for the terminal
+- Wait for the terminal
 
 ## Expected output
 
