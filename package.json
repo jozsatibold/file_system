@@ -1,7 +1,16 @@
 {
+  "name": "file_system",
+  "license": "Apache License 2.0",
+  "author": {
+    "name": "Jozsa Tibold",
+    "email": "tibold.jozsa@resilio.ro",
+    "url": "resilio.ro"
+  },
   "scripts": {
     "build": "npx tsc",
+    "setup": "mkdir -p topdir && chmod 755 topdir",
     "start": "npx ts-node dist/main.js",
+    "dev": "npm run build && npm run start",
     "lint": "npx eslint --ext .ts src"
   },
   "devDependencies": {
